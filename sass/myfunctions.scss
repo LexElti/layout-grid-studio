@@ -1,0 +1,13 @@
+/*
+px2prc($w, $wp);
+*/
+@function px2prc($w, $wp) {
+
+    @return ($w / $wp) * 100%;
+}
+/*
+Чтобы применить:
+.header__left {
+    padding-left: px2prc(165, $wlf);
+}
+*/
